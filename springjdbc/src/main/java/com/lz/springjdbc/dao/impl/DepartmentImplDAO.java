@@ -21,7 +21,6 @@ public class DepartmentImplDAO implements DepartmentDAO {
        this.dataSource = dataSource;
    }
 
-   @Override
    public List<Department> queryDepartment() throws SQLException {
        Connection conn = dataSource.getConnection();
 
